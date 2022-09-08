@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"",
+        "defaultValue":"2022OCFAIR",
         "required":"true",
         "disabled":"true"
       },
