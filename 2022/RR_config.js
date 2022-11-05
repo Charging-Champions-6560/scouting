@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022OCFAIR",
+        "defaultValue":"2022cabl",
         "required":"true",
         "disabled":"true"
       },
@@ -107,18 +107,6 @@ var config_data = `
         "title": "Wallbot?",
         "type":"bool"
       },
-      "Cargo Intake From": {
-        "code":"cif",
-        "title": "Cargo Intake From",
-        "type":"radio",
-        "choices":{
-          "t":"Terminal<br>",
-          "g":"Ground<br>",
-          "b":"Both<br>",
-          "x":"Not Attempted"
-        },
-        "defaultValue":"x"
-      },
       "Shooting Spot": {
         "code":"ss",
         "title": "Shooting Spot",
@@ -153,6 +141,11 @@ var config_data = `
       }
     },
     "postmatch": {
+      "Alliance Won": {
+        "code":"aw",
+        "title": "Alliance Won?",
+        "type":"bool"
+      },
       "Driver Skill": {
         "code":"ds",
         "title": "Driver Skill",
@@ -177,11 +170,6 @@ var config_data = `
           "x":"Did not play defense"
         },
         "defaultValue":"x"
-      },
-       "Strategically held enemy cargo during match?": {
-        "code":"hc",
-        "title": "Enemy Balls",
-        "type":"bool"
       },
        "Swerve drive?": {
         "code":"sd",
@@ -216,7 +204,7 @@ var config_data = `
         "title": "Comments",
         "type":"text",
         "size":15,
-        "maxSize":50
+        "maxSize":75
       },
       "Confidence Rating": {
         "code":"cnf",
